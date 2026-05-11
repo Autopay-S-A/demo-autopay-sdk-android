@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_demo.xml"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="eu.autopay.pay.demo.ui.home.HomeFragment" />
+    <fragment
+        android:id="@+id/transactionStatusFragment"
+        android:name="eu.autopay.pay.demo.ui.status.TransactionStatusFragment">
+        <argument
+            android:name="orderId"
+            app:argType="string" />
+        <argument
+            android:name="reason"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/styleFragment"
+        android:name="eu.autopay.pay.demo.ui.style.StyleFragment" />
+    <fragment
+        android:id="@+id/demoTypeFragment"
+        android:name="eu.autopay.pay.demo.ui.type.DemoTypeFragment">
+        <argument
+            android:name="type"
+            app:argType="eu.autopay.pay.demo.ui.type.DemoType" />
+    </fragment>
+    <fragment
+        android:id="@+id/environmentFragment"
+        android:name="eu.autopay.pay.demo.ui.environment.EnvironmentChooserFragment" />
+    <fragment
+        android:id="@+id/nativeFragment"
+        android:name="eu.autopay.pay.demo.ui.normal.NativeFragment" />
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="eu.autopay.pay.demo.ui.webview.WebViewFragment">
+        <argument
+            android:name="url"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="orderId"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardActivationFragment"
+        android:name="eu.autopay.pay.demo.ui.card.CardActivationFragment" />
+</navigation>

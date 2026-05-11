@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AutopaySDK.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar" >
+        <item name="postSplashScreenTheme">@style/Theme.AutopaySDK.Material</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+    <style name="Theme.AutopaySDK.Material" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

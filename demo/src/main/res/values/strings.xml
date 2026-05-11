@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Autopay SDK Demo</string>
+    <string name="demo_footer" translatable="false">Autopay SDK v%s</string>
+    <string name="demo_home_active_form">Active payment method</string>
+    <string name="demo_home_form_native">Native</string>
+    <string name="demo_home_form_webview">WebView</string>
+    <string name="demo_home_form_native_explanation">The payment process takes place inside the application</string>
+    <string name="demo_home_form_webview_explanation">In the payment process, screens from external websites are presented</string>
+    <string name="demo_common_change">Change</string>
+    <string name="demo_common_next">Continue</string>
+    <string name="demo_common_save">Save</string>
+    <string name="demo_common_cancel">Cancel</string>
+    <string name="demo_common_edit">Edit</string>
+    <string name="demo_common_ok">Ok</string>
+    <string name="demo_home_theme">Application theme</string>
+    <string name="demo_home_theme_selected_color">Selected color:</string>
+    <string name="demo_home_service">Production service</string>
+    <string name="demo_home_service_production">SDK - Production</string>
+    <string name="demo_home_service_development">SDK - Test</string>
+    <string name="demo_home_service_selected">Selected service:</string>
+    <string name="demo_list_title">Choice of form of payment</string>
+    <string name="demo_google_pay_title">Google Pay payment</string>
+    <string name="demo_blik_title">BLIK payment</string>
+    <string name="demo_bank_title">Bank transfer payment</string>
+    <string name="demo_card_title">Card payment</string>
+    <string name="demo_visa_title">Visa Mobile payment</string>
+    <string name="demo_type_title">Choice of calling up forms of payment</string>
+    <string name="demo_type_content">The selected path will show you how the user will process payments on his phone</string>
+    <string name="demo_status_success">Payment succeeded</string>
+    <string name="demo_status_pending">Payment in progress</string>
+    <string name="demo_status_error">Payment failed</string>
+    <string name="demo_error_title">Something went wrong</string>
+    <string name="demo_common_retry">Try again</string>
+    <string name="demo_theme_title">Application theme</string>
+    <string name="demo_theme_type_title">Color theme</string>
+    <string name="demo_theme_light">Light</string>
+    <string name="demo_theme_dark">Dark</string>
+    <string name="demo_theme_brand_color">Select a color from the palette</string>
+    <string name="demo_theme_brand_insert_hex">Use your own color in HEX format</string>
+    <string name="demo_config_subtitle">Choice of production service</string>
+    <string name="demo_config_content">Select the service on which you want to perform your transactions</string>
+    <string name="demo_service_config_section_title">SDK configuration</string>
+    <string name="demo_service_config_token">Token</string>
+    <string name="demo_service_config_service_id">ServiceID</string>
+    <string name="demo_service_config_acceptor_id">AcceptorID</string>
+    <string name="demo_service_config_price">Price</string>
+    <string name="demo_config_google_merchant_id">Google Merchant ID (Optional)</string>
+    <string name="demo_theme_brand_color_title">Base color</string>
+    <string name="demo_theme_content_color">Content color</string>
+    <string name="demo_theme_neutral_light_color">Neutral light color</string>
+    <string name="demo_theme_neutral_dark_color">Neutral dark color</string>
+    <string name="demo_theme_error_color">Error color</string>
+    <string name="demo_theme_background_color">Background color</string>
+    <string name="demo_theme_text_color">Text color</string>
+    <string name="demo_card_activation_title">Enable automatic payment</string>
+    <string name="demo_theme_input_placeholder" translatable="false">FFFFFF</string>
+    <string name="demo_service_config_payment_summary">Payment title</string>
+    <string name="demo_theme_extra_color_title">Additional colors</string>
+    <string name="demo_logo_autopay">logo Autopay</string>
+    <string name="demo_card_autopayment_button">Automatic payment</string>
+    <string name="demo_service_config_currency">Currency</string>
+    <string name="demo_service_config_context_path">Context Path</string>
+</resources>

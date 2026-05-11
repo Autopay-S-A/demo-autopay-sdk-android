@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Autopay SDK Demo</string>
+    <string name="demo_footer" translatable="false">Autopay SDK v%s</string>
+    <string name="demo_home_active_form">Aktive Zahlungsmethode</string>
+    <string name="demo_home_form_native">Native</string>
+    <string name="demo_home_form_webview">WebView</string>
+    <string name="demo_home_form_native_explanation">Der Auswahlprozess und die Abwicklung einiger Zahlungsmethoden erfolgt innerhalb der App</string>
+    <string name="demo_home_form_webview_explanation">Der Auswahlprozess und die Abwicklung einiger Zahlungsmethoden erfolgt über eine externe Website.</string>
+    <string name="demo_common_change">Ändern</string>
+    <string name="demo_common_next">Weiter</string>
+    <string name="demo_common_save">Speichern</string>
+    <string name="demo_common_cancel">Annullieren</string>
+    <string name="demo_common_edit">Bearbeiten</string>
+    <string name="demo_common_ok">Ok</string>
+    <string name="demo_home_theme">Motiv der App</string>
+    <string name="demo_home_theme_selected_color">Ausgewählte Farbe:</string>
+    <string name="demo_home_service">Produktionsservice</string>
+    <string name="demo_home_service_production">SDK - Produktion</string>
+    <string name="demo_home_service_development">SDK - Test</string>
+    <string name="demo_home_service_selected">Ausgewählter Service:</string>
+    <string name="demo_list_title">Auswahl der Zahlungsmethode</string>
+    <string name="demo_google_pay_title">Google Pay-Zahlung</string>
+    <string name="demo_blik_title">BLIK-Zahlung</string>
+    <string name="demo_bank_title">Banküberweisung</string>
+    <string name="demo_card_title">Bezahlung mit Karte</string>
+    <string name="demo_visa_title">Visa Mobile</string>
+    <string name="demo_type_title">Auswahl des Abrufs der Zahlungsmethode</string>
+    <string name="demo_type_content">Der ausgewählte Pfad zeigt, wie der Benutzer Zahlungen über sein Telefon vornimmt</string>
+    <string name="demo_status_success">Ihre Zahlung war erfolgreich</string>
+    <string name="demo_status_pending">Ihre Zahlung wird bearbeitet</string>
+    <string name="demo_status_error">Ihre Zahlung war nicht erfolgreich</string>
+    <string name="demo_error_title">Da ist etwas schief gelaufen</string>
+    <string name="demo_common_retry">Erneut versuchen</string>
+    <string name="demo_theme_title">Motiv der App</string>
+    <string name="demo_theme_type_title">Farbmotiv</string>
+    <string name="demo_theme_light">Hell</string>
+    <string name="demo_theme_dark">Dunkel</string>
+    <string name="demo_theme_brand_color">Wählen Sie die Farbe aus der Palette aus</string>
+    <string name="demo_theme_brand_insert_hex">Verwenden Sie eigene Farbe im HEX-Format</string>
+    <string name="demo_config_subtitle">Auswahl der Produktionsservice</string>
+    <string name="demo_config_content">Wählen Sie Service aus, auf der Sie Ihre Transaktionen durchführen möchten</string>
+    <string name="demo_service_config_section_title">SDK-Konfiguration</string>
+    <string name="demo_service_config_token">Token</string>
+    <string name="demo_service_config_service_id">ServiceID</string>
+    <string name="demo_service_config_acceptor_id">AcceptorID</string>
+    <string name="demo_service_config_price">Preis</string>
+    <string name="demo_config_google_merchant_id">Google Merchant ID (optional)</string>
+    <string name="demo_theme_brand_color_title">Grundfarbe</string>
+    <string name="demo_theme_content_color">Farbe des Inhalts</string>
+    <string name="demo_theme_neutral_light_color">Neutrale helle Farbe</string>
+    <string name="demo_theme_neutral_dark_color">Neutrale dunkle Farbe</string>
+    <string name="demo_theme_error_color">Farbe des Codes</string>
+    <string name="demo_theme_background_color">Farbe des Hintergrundes</string>
+    <string name="demo_theme_text_color">Farbe des Textes</string>
+    <string name="demo_card_activation_title">Aktivierung der automatischen Zahlung</string>
+    <string name="demo_theme_input_placeholder" translatable="false">FFFFFF</string>
+    <string name="demo_service_config_payment_summary">Verwendungszweck</string>
+    <string name="demo_theme_extra_color_title">Zusätzliche Farben</string>
+    <string name="demo_logo_autopay">Autopay-Logo</string>
+    <string name="demo_card_autopayment_button">Automatische Zahlung</string>
+    <string name="demo_service_config_currency">Währung</string>
+    <string name="demo_service_config_context_path">Context Path</string>
+</resources>
