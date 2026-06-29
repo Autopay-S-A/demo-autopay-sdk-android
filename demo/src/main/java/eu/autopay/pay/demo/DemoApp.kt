@@ -27,6 +27,7 @@ class DemoApp : Application() {
                     .googlePayMerchantId(googlePayMerchantId)
                     .currencies(listOf(currency))
                     .contextPath(contextPath)
+                    .useWebBlik(useWebBlik)
                     .build()
             )
         }

@@ -58,4 +58,5 @@
     <string name="demo_card_autopayment_button">Płatność automatyczna</string>
     <string name="demo_service_config_currency">Waluta</string>
     <string name="demo_service_config_context_path">Context Path</string>
+    <string name="demo_service_config_use_web_blik">Blik w WebView</string>
 </resources>

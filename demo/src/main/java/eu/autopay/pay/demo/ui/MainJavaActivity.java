@@ -46,6 +46,7 @@ public class MainJavaActivity extends AppCompatActivity {
             .contextPath("/payment")
             .enableLogging(true) // false on production!
             .googlePayMerchantId("merchantId")
+            .useWebBlik(false) // true if blik in webview
             .build());
     }
 

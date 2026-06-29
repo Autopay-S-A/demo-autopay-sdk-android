@@ -4,7 +4,7 @@ compileSdk = "35"
 minSdk = "26"
 versionMajor = "4"
 versionMinor = "0"
-versionPatch = "4"
+versionPatch = "5"
 versionAlpha = "0"
 
 agp = "8.12.0"
@@ -25,7 +25,7 @@ material3Android = "1.12.0"
 
 androidXCoreSplashscreen = "1.0.1"
 
-sdk = "4.0.4"
+sdk = "4.0.5"
 
 [libraries]
 autopay-sdk = { group = "eu.autopay.pay", name = "sdk", version.ref = "sdk" }

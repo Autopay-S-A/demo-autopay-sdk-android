@@ -42,6 +42,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import eu.autopay.pay.demo.R
+import eu.autopay.pay.demo.ui.common.DemoSwitch
 import eu.autopay.pay.demo.ui.common.DemoTextInput
 import eu.autopay.pay.demo.ui.common.Footer
 import eu.autopay.pay.demo.ui.common.PrimaryButton
@@ -68,6 +69,7 @@ fun EnvironmentChooserCompose() {
     var isClicked by rememberSaveable { mutableStateOf(false) }
     var currencyTextField by rememberTextFieldValue(currentConfig.currency)
     var contextPathTextField by rememberTextFieldValue(currentConfig.contextPath)
+    var useWebBlik by rememberSaveable { mutableStateOf(currentConfig.useWebBlik) }
 
     Scaffold(
         modifier = Modifier.fillMaxSize(),
@@ -194,6 +196,12 @@ fun EnvironmentChooserCompose() {
                     keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
                     label = stringResource(R.string.demo_service_config_payment_summary),
                 )
+                Spacer(Modifier.height(Sizes.DoublePadding))
+                DemoSwitch(
+                    text = stringResource(R.string.demo_service_config_use_web_blik),
+                    checked = useWebBlik,
+                    onCheckedChange = { useWebBlik = it },
+                )
             }
             Column(
                 Modifier.fillMaxWidth()
@@ -229,6 +237,7 @@ fun EnvironmentChooserCompose() {
                             email = currentConfig.email,
                             currency = currencyTextField.text.uppercase(),
                             contextPath = contextPathTextField.text,
+                            useWebBlik = useWebBlik,
                         )
                     )
                     NavigationDispatcher.popBack()
@@ -279,7 +288,7 @@ private fun SDKTypeBtn(selected: Boolean, text: String, onClick: () -> Unit) {
     }
 }
 
-@Preview(apiLevel = 34)
+@Preview(apiLevel = 34, heightDp = 1200)
 @Composable
 private fun EnvironmentChooserScreenPreview() =
     DemoTheme.AutopaySDKTheme { EnvironmentChooserCompose() }

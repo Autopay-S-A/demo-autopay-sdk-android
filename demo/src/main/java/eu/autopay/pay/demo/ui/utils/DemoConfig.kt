@@ -43,6 +43,7 @@ object DemoConfigHolder {
                 .googlePayMerchantId(config.googlePayMerchantId)
                 .currencies(listOf(config.currency))
                 .contextPath(config.contextPath)
+                .useWebBlik(config.useWebBlik)
                 .build()
         )
         currentConfig.value = config
@@ -64,6 +65,7 @@ private val DEFAULT_CONFIG =
         email = "devnull@bm.pl",
         currency = "PLN",
         contextPath = "/payment",
+        useWebBlik = false,
     )
 
 data class DemoConfig(
@@ -77,4 +79,5 @@ data class DemoConfig(
     @field:JsonProperty("email") val email: String?,
     @field:JsonProperty("currency") val currency: String,
     @field:JsonProperty("contextPath") val contextPath: String,
+    @field:JsonProperty("useWebBlik") val useWebBlik: Boolean,
 )

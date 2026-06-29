@@ -61,4 +61,5 @@
     <string name="demo_card_autopayment_button">Automatic payment</string>
     <string name="demo_service_config_currency">Currency</string>
     <string name="demo_service_config_context_path">Context Path</string>
+    <string name="demo_service_config_use_web_blik">Blik in WebView</string>
 </resources>
